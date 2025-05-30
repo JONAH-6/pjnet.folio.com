@@ -1,0 +1,858 @@
+/*section 1 */
+.reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ }
+html{
+    scroll-behavior: smooth;
+}
+body{
+  background: white;
+}
+.header {
+    background-color: rgb(0, 0, 255);
+    width: 100%;
+    height: 5.5rem;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    transition: none;
+     
+}
+ 
+.logo{
+  position: absolute; 
+  
+}
+.logo:hover{
+    cursor:progress;
+}
+.head-logo{
+    padding-left: 2rem;
+}
+ ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    padding:  1.3rem 3rem;
+}
+ ul li{
+    cursor: pointer;
+    padding: 0 1rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: 100;
+    transition: .5s ease-in-out;
+    color: white;
+   
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(124, 124, 255);
+    transform: scale(1);
+}
+.main-nav {
+    position: sticky;
+    top: 0;
+    
+    z-index: 1000;
+    transition: top 0.3s;
+}
+.active-2{
+    background-color: transparent;
+    padding:  .5rem;
+    border: 1.5px solid  wheat;
+    border-radius: .5rem;
+     
+}
+.active-2:hover{
+    cursor: not-allowed;
+    color: white;
+}
+.image-one{
+    font-size: 40rem;
+    position: absolute;
+    left: 44rem;
+     
+}
+.section-images{
+     
+   margin: 5.5rem 0;
+   width: 100%;
+   height: 45rem;
+   background-color: rgb(0, 0, 255);
+
+}
+.heading-section{
+    color: white;
+    position: absolute;
+    box-sizing: border-box;
+    top: 8rem;
+    left: 5rem;
+     
+}
+.heading-one{
+    color: white;
+    letter-spacing: .5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading-two{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2rem;
+    width: 50rem;
+    color: rgb(202, 202, 202);
+  
+}
+.heading-tree{
+    width: 35rem;
+    position: absolute;
+    margin: 2rem 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    color: rgba(255, 255, 255, 0.911);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+/* end of section 1 */
+
+/*  section 2 */
+  .sub-heading-1{
+    font-style: oblique;
+    font-weight: 100;
+    color: black;
+    text-transform: capitalize;
+    padding-left: 3.2rem; 
+    position: absolute; 
+    top: 0; 
+}
+.Experience {
+    width: 100%;
+    height: 60rem;
+    background-color: white;
+    justify-content: center; 
+    align-items: center; 
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10rem;
+   
+ }
+
+.container{
+    width: 25rem;
+    height: 24rem; 
+    line-height: 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin-left: 2rem;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .5s ease-in-out;
+    border-radius: 1rem;
+}
+.container:hover{
+     background-color: rgba(2, 2, 136, 0.233);
+ }
+.con-heading{
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.con-paragraph{
+    font-weight: 300;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.con-persent{
+ float: inline-end;
+ color: blue;
+ font-weight: bold;
+ font-size: 1.3rem;
+}
+.con-persent-2{
+ color: blue;
+ font-weight: bold;
+ font-size: 1.3rem;
+}
+.per-leter{
+    color: rgba(0, 0, 255, 0.589);
+     font-weight: 400;
+    font-size:medium;
+}
+.con{
+    position: relative;
+}
+/* end of section 2 */ 
+/* section 3 */ 
+/* skills */
+.skills{
+    width: 100%;
+    height: 80rem;
+     position: relative;
+    align-items: center;
+    margin-top: 7rem;
+      
+}
+.sub-heading{
+    font-style: oblique;
+    font-weight: 100;
+    color: black;
+    text-transform: capitalize;
+    padding-left: 3.2rem;  
+    margin: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.line{
+    width:7rem;
+    height: .1rem;
+    background-color: rgba(0, 0, 255, 0.514);
+    position: absolute;
+    top: .8rem;
+    margin-left: .8rem;
+    
+}
+.line-1{
+    width:7rem;
+    height: .1rem;
+    background-color: rgba(0, 0, 255, 0.514);
+    position: absolute;
+    top: .8rem;
+    margin-left: .8rem;
+    
+}
+
+.dis-heading{
+    font-weight: 900;
+    font-size: xx-large;
+    color: black;
+    text-transform: capitalize;
+    padding-left: 3.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lang-heading{
+    font-weight: bolder;
+    position: absolute;
+    font-size: 2rem;
+     padding-left: 4.5rem;
+     padding-top: 1rem;
+     line-height: 3rem;
+     margin-top: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.long-line{
+    width:75rem;
+    height: .1rem;
+    position: absolute;
+    left: 3.2rem;
+    background-color: rgba(0, 0, 255, 0.514);   
+}
+.heading-hs{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading-para{
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    color: black;    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* conatainer 1 */ 
+.skills-card{
+    width:15rem;
+    height: 13.5rem;
+    background-color: rgb(247, 250, 255);
+    color: white;
+    font-weight: 300;
+    transition: .5s ease-in-out;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .9rem;
+    
+}
+.skills-card:hover{
+     transform: translateY(-10px); 
+     box-shadow: 2px 2px 21px 2px  rgba(0, 0, 0, 0.329); 
+}
+/* container 1 */ 
+.skills-cards{
+    margin-left: 2.5rem;
+    margin-top: 7rem;
+    width: 20rem;
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+}
+.skills-icon{
+    font-size: 2rem;
+    color:#E34F26; 
+}
+.skills-icon.one{
+    color: #1572B6;
+}
+.skills-icon.two{
+    color: #F7DF1E;
+}
+.skills-icon.three{
+    color: #61DAFB;
+}
+.skills-icon.four{
+    color: #8CC84B;
+}
+.skills-icon.five{
+    color: #339933 ;
+}
+.skills-icon.six{
+    color: #FFD43B;
+}
+.skills-icon.seven{
+    color: #E76F00;
+}
+.skills-icon.eight{
+    color: #4479A1;
+}
+/* end of container 1 */ 
+
+/* container 2 */ 
+.skills-card-2{
+    width:15rem;
+    height: 13.5rem;
+    background-color: rgb(247, 250, 255);
+    color: white;
+    font-weight: 300;
+    transition: .5s ease-in-out;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .9rem;
+    grid-template-columns: repeat(2, 1fr);    
+}
+.skills-card-2:hover{
+     transform: translateY(10px); 
+     box-shadow: 2px 2px 21px 2px  rgba(0, 0, 0, 0.329); 
+}
+/* end of container 2 */ 
+/* end of skills */ 
+/* end of section 3 */ 
+
+/*  section 4 */ 
+.project{
+    width: 100%;
+    height: 70rem;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+ }
+ .project.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.project-container{
+  width: 25rem;
+  height: 30rem;
+  background-color: white;
+  margin: .5rem;
+  border-radius: .9rem;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+.project-container:hover{
+    box-shadow:  1px 1px 5px 1px rgb(0, 0, 0);
+}
+.project-con{
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr); 
+    flex-direction: column;
+    position: absolute;
+ }
+.project-image {
+    position: relative;
+    justify-content: center;     
+    display: flex;
+    width: 23rem;
+}
+.image {
+    width: 23rem;
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+    border-radius: .7rem;
+    transition: 0.7s ease, transform 0.7s ease;
+}
+.image:hover{
+    transform: scale(.9);
+}
+.sub-headingtree{
+    position: absolute;
+    padding-top: 1.2rem;
+    padding-left: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: black;
+}
+.linetree{
+    width:7rem;
+    height: .1rem;
+    background-color: rgba(0, 0, 255, 0.514);
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: .8rem;
+     
+     
+}
+.project-heading{
+    color: blue;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+.project-para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 100;
+    font-size: medium;
+ }
+.project-btn{
+    margin-left: 1rem;
+    position: relative;
+    cursor: pointer;
+    padding: .5rem 5rem ;
+    outline: none;
+    border: 0;
+    border-radius: 1rem;
+}
+/*  end of section 4 */ 
+.contact{
+    width: 100%;
+    height: 35rem;
+background-color: #b9d8ff;    
+padding-top: 6rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+
+ 
+.input-row {
+    display: flex;
+    width: 70%;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+ .project-input {
+    flex: 1;
+    border: 1px solid blue;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    font-size: large;
+    font-weight: 100;
+    height: 3rem;
+    outline: none;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .project-textarea {
+    width: 70%;
+    border: 1px solid blue;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: large;
+    font-weight: 100;
+    min-height: 10rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+    display: block;
+    outline: none;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.project-btn-2{
+    margin-left: 1rem;
+    position: relative;
+    cursor: pointer;
+    padding: .5rem 5rem ;
+    outline: none;
+    background-color: none;
+    background-color: red;
+    border: 0;
+    border-radius: 1rem;
+    font-size: large;
+    color: white;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.project-btn-2:hover{
+    background-color: transparent;
+    color: rgb(11, 11, 180);
+}
+.footer{
+    width: 100%;
+    height: 10rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: x-large;
+    cursor: pointer;
+}
+ 
+.face{
+     color: white;
+    background-color: rgba(2, 2, 134, 0.514);
+     padding: .5rem;
+     border-radius: .5rem;
+}
+.face:hover{
+    background-color: #FFFFFF;
+    color: #1877F2;
+}
+.linke{
+    color: white;
+    background-color: rgba(2, 2, 134, 0.514);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.linke:hover{
+    background-color:#FFFFFF;
+    color: #0A66C2;
+}
+.git{
+    color: white;
+    background-color: rgba(2, 2, 134, 0.514);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.git:hover{
+    background-color: #FFFFFF;
+    color: #24292E;
+}
+.what{
+    background-color: rgba(2, 2, 134, 0.514);
+    color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.what:hover{
+    background-color: 	#ECE5DD;
+    color: #25D366;
+}
+.footer-content{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 2rem;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hamburger {
+    color: white;
+    display: none;
+}
+
+@media (max-width: 1350px){
+    .image-one{
+        position: absolute;
+        left: 25rem;
+    }
+    .contact-form{
+background-color: #b9d8ff;    
+    }
+}
+@media (max-width: 1300px) {
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 1.5rem;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+        z-index: 10001;
+    }
+    .main-nav ul {
+        flex-direction: column;
+        background: rgba(35, 35, 255, 0.925);
+        position: fixed;
+        top: 5.5rem;
+        gap: 2rem;
+        right: 0;
+        width: 80%;
+        height: 100vh;
+        justify-content: flex-start;
+        padding: 2rem 1rem;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        font-size: 1rem;
+         
+    }
+    .main-nav ul.active {
+        transform: translateX(0);
+    }
+    .image-one{
+        position: absolute;
+        left: 25rem;
+    }
+    .heading-tree{
+        z-index: 9999;
+    }
+}
+
+@media (max-width: 900px){
+    .section-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: 5.5rem 0 0 0;
+        background-color: rgb(0, 0, 255);
+        position: relative;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+    .heading-section {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .heading-one,
+    .heading-two,
+    .heading-tree {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .heading-tree {
+        max-width: 95vw;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    } 
+    .image-one {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+        /* Contact Section Responsive */
+    .contact {
+        width: 100%;
+        height: auto;
+        padding: 3rem 0 2rem 0;
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-form {
+        width: 98%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+    .input-row {
+        flex-direction: column;
+        width: 100%;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+        align-items: stretch;
+    }
+    .project-input,
+    .project-textarea {
+        width: 100%;
+         font-size: 1rem;
+        padding: .7rem;
+        margin-top: 1rem;
+     }
+    .project-textarea {
+        min-height: 8rem;
+        margin-bottom: 2rem;
+    }
+    .project-btn-2 {
+        width: 100%;
+        margin: 1rem 0 0 0;
+        padding: .7rem 0;
+        font-size: 1.1rem;
+        
+    }
+    .footer {
+        height: auto;
+        padding: 2rem 0 1rem 0;
+    }
+    .footer-content {
+        font-size: 1.1rem;
+     }
+    .social-links {
+        gap: 1.2rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .linetree,
+    .line,
+    .line-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+            .sub-heading-1,
+    .sub-heading,
+    .sub-headingtree{
+        text-align: center;
+        text-align: center;
+        position: relative;
+    }
+    .head-logo{
+        padding-top: .6rem;
+    }
+}
+@media (max-width: 1300px) {
+
+    /* Section 2 (Experience) responsive styles */
+    .Experience {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-top: 7rem;
+        gap: 1.5rem;
+        padding: 1.5rem 0;
+    }
+    .container {
+        width: 95%;
+        max-width: 100%;
+        margin: 1rem auto;
+        height: auto;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+ 
+        /* Section 3: Skills */
+    .skills {
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    .sub-heading {
+        padding-left: 1.5rem;
+        font-size: 1.2rem;
+     }
+    .dis-heading {
+        padding-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+    .lang-heading {
+        position: static;
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+        margin-top: 1rem;
+    }
+    .long-line {
+        width: 90%;
+        left: 1.5rem;
+    }
+    .skills-cards {
+        margin-left: 0;
+        margin-top: 2rem;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        justify-items: center;
+    }
+    .skills-card,
+    .skills-card-2 {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+        /* Section 4: Projects */
+    .project {
+        width: 100%;
+        height: auto;
+        padding: 2rem 0;
+    }
+    .project-con {
+        grid-template-columns: 1fr;
+        position: static;
+        gap: 2rem;
+        width: 100%;
+        justify-items: center;
+    }
+    .project-container {
+        width: 90%;
+        height: auto;
+        margin: 1rem auto;
+    }
+    .project-image,
+    .image{
+        width: 100%;
+        scale: .9;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .sub-headingtree {
+        position: static;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .project-heading{
+        padding-top: -.5rem;
+    }
+}
